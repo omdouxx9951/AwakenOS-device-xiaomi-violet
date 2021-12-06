@@ -8,8 +8,8 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common AwakenOS stuff.
+$(call inherit-product, vendor/awaken/config/common.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -21,7 +21,7 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_USES_FACE_UNLOCK := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_violet
+PRODUCT_NAME := awaken_violet
 PRODUCT_DEVICE := violet
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7 Pro
